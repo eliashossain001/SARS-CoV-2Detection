@@ -1,14 +1,5 @@
 # A Comparative Study of Deep-Learning Models for COVID-19 Diagnosis based on X-ray and CT Images
 
-<h4> Authors</h4>
-<ul>
-<li>Elias Hossain <sup>1</sup></li>
-
-</ul>
-
-<h4> Affiliation</h4>
-
-Daffodil International University, Bangladesh <sup>1</sup> <br> 
 
 # Research Objectives
 A highly infectious disease that emerged in China towards the end of 2019 is COVID-19, or more generally referred to as the Novel Coronavirus disease. SARS-CoV-2, a virus that belongs to the large coronavirus family, causes this disease. The disease first emerged in Wuhan, China in December 2019 and rapidly spread to over 213 countries, becoming a global pandemic. Fever, dry cough, and fatigue are the most common COVID-19 symptoms. Aches, pains, and trouble breathing are some of the other symptoms that people can experience. The majority of these symptoms are signs of respiratory infections and lung abnormalities, which radiologists can identify.
