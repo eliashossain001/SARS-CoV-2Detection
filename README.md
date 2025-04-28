@@ -1,13 +1,30 @@
-# A Comparative Study of Deep-Learning Models for COVID-19 Diagnosis based on X-ray and CT Images
+# COVID-19 Detection using Deep Learning on Chest X-rays and CT Scans
 
+## 📖 Project Overview
+This project presents a comparative study of deep learning models — VGG16, ResNet50, InceptionV3, and Xception — for automated COVID-19 diagnosis based on Chest X-ray and CT images.
 
-# Research Objectives
-A highly infectious disease that emerged in China towards the end of 2019 is COVID-19, or more generally referred to as the Novel Coronavirus disease. SARS-CoV-2, a virus that belongs to the large coronavirus family, causes this disease. The disease first emerged in Wuhan, China in December 2019 and rapidly spread to over 213 countries, becoming a global pandemic. Fever, dry cough, and fatigue are the most common COVID-19 symptoms. Aches, pains, and trouble breathing are some of the other symptoms that people can experience. The majority of these symptoms are signs of respiratory infections and lung abnormalities, which radiologists can identify.
+## 🎯 Objectives
+- Automate COVID-19 detection to assist radiologists.
+- Compare the performance of different deep learning architectures.
+- Evaluate models based on precision, recall, f1-score, accuracy, and confusion matrices.
 
-Thus, it is possible to use Machine Learning algorithms to detect the disease from images of Chest X-rays and CT scans. Automated applications can be created to help support radiologists. This article is an attempt to use four Deep Learning algorithms, namely: VGG16, ResNet50, InceptionV3 and Xception.
+## 🧠 Deep Learning Models Used
+- VGG16
+- ResNet50
+- InceptionV3
+- Xception
 
+## 📂 Dataset
+- Chest X-ray images
+- Chest CT scan images
 
-# EVALUATION AND RESULT 
+## ⚙️ Methodology
+1. Data preprocessing
+2. Model training and validation
+3. Performance evaluation using classification reports and confusion matrices
+
+## 📊 Results
+### EVALUATION AND RESULT 
 
 <h4> Sample output of the test images<h4> <br> 
 
@@ -43,4 +60,16 @@ Thus, it is possible to use Machine Learning algorithms to detect the disease fr
 ![ctcon2](https://user-images.githubusercontent.com/54431128/109399056-9815ec80-796a-11eb-866c-9946b8087e70.png)
 ![ctcon1](https://user-images.githubusercontent.com/54431128/109399057-98ae8300-796a-11eb-931b-e49e6f461fc0.png)
 
+
+Sample outputs and confusion matrices are available in the `/results` folder.
+
+## 🚀 Tech Stack
+- Python
+- TensorFlow / Keras
+- Matplotlib, scikit-learn
+
+## 🏁 How to Clone
+```bash
+git clone https://github.com/eliashossain001/SARS-CoV-2Detection.git
+cd covid19-diagnosis-dl
 
